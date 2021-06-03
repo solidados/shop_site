@@ -110,15 +110,15 @@ a {
 }
 
 .img__01 {
-  background-image: linear-gradient(to top rgba(136, 110, 98, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_001.png");
+  background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url("/img/card_main_001.png");
 }
 
 .img__02 {
-  background-image: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_002.png");
+  background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_002.png");
 }
 
 .img__03 {
-  background-image: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_003.png");
+  background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_003.png");
 }
 
 .img__04 {
