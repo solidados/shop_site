@@ -110,8 +110,7 @@ a {
 }
 
 .img__01 {
-  background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_001.png");
-  /* backdrop-filter: blur(8px); */
+  background-image: linear-gradient(to top rgba(136, 110, 98, 0.7), rgba(33, 22, 22, 0.4)), url("/img/card_main_001.png");
 }
 
 .img__02 {
