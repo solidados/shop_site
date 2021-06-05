@@ -248,7 +248,7 @@ header {
             .info__img {
                 width: 45px;
                 height: 42px;
-                /* margin-bottom: 16px; */
+                filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
             }
 
             .info__title {
