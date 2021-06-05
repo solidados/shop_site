@@ -218,52 +218,59 @@ header {
     .see__all_prods {
         border: 1px solid rgba(242, 99, 118, 1);
         display: inline-block;
-        text-align: center;
-        text-decoration: none;
         padding: 15px 80px;
-        font-size: 16px;
         color: rgba(242, 99, 118, 1);
         line-height: 19px;
         line-height: 26px;
+    }
 
+    .see__all_prods:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
     }
 }
 
-.why__us {
+.info {
     background-color: rgba(34, 34, 34, 0.9);
-    padding: 100px 230px;
 
-    .bottom__info {
+    .info__wrap {
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 103px 0;
+        gap: 30px;
 
-        .bottom__item {
-            max-width: 360px;
+        .info__item {
             text-align: center;
-            color: whitesmoke;
+            max-width: 360px;
 
-            .bottom__icon {
-                max-width: 40px;
-                margin-bottom: 16px;
+            .info__img {
+                width: 45px;
+                height: 42px;
+                /* margin-bottom: 16px; */
             }
 
-            .heading__bottom {
+            .info__title {
+                color: whitesmoke;
                 font-size: 20px;
                 line-height: 24px;
-                font-weight: normal;
-                margin-bottom: 16px;
+                font-weight: 400;
+                margin: 20px 0 16px;
             }
 
-            .text__bottom {
-                font-weight: 300;
+            .info__text {
+                color: whitesmoke;
                 font-size: 14px;
                 line-height: 17px;
+                font-weight: 300;
+                min-width: 320px;
                 text-align: center;
-                color: whitesmoke;
             }
         }
 
-        .bottom__item:not(:last-child) {
-            margin-right: 30px;
+        .info__item:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
         }
     }
 }
