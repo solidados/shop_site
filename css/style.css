@@ -88,7 +88,7 @@ header .header__item:not(:last-child) {
   text-align: center;
   color: whitesmoke;
 }
-.offer .offer__wrap .offer__card .offer__text h4 {
+.offer .offer__wrap .offer__card .offer__text .offer__heading {
   font-weight: 300;
   font-size: 16px;
 }
@@ -200,16 +200,28 @@ header .header__item:not(:last-child) {
 }
 .why__us .bottom__info {
   display: flex;
-  flex-direction: row;
 }
 .why__us .bottom__info .bottom__item {
   max-width: 360px;
   text-align: center;
   color: whitesmoke;
 }
+.why__us .bottom__info .bottom__item .bottom__icon {
+  max-width: 40px;
+  margin-bottom: 16px;
+}
 .why__us .bottom__info .bottom__item .heading__bottom {
   font-size: 20px;
   line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+.why__us .bottom__info .bottom__item .text__bottom {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: whitesmoke;
 }
 .why__us .bottom__info .bottom__item:not(:last-child) {
   margin-right: 30px;

@@ -101,7 +101,7 @@ header {
                 text-align: center;
                 color: whitesmoke;
 
-                h4 {
+                .offer__heading {
                     font-weight: 300;
                     font-size: 16px;
                 }
@@ -235,16 +235,30 @@ header {
 
     .bottom__info {
         display: flex;
-        flex-direction: row;
 
         .bottom__item {
             max-width: 360px;
             text-align: center;
             color: whitesmoke;
 
+            .bottom__icon {
+                max-width: 40px;
+                margin-bottom: 16px;
+            }
+
             .heading__bottom {
                 font-size: 20px;
                 line-height: 24px;
+                font-weight: normal;
+                margin-bottom: 16px;
+            }
+
+            .text__bottom {
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: whitesmoke;
             }
         }
 
@@ -252,7 +266,4 @@ header {
             margin-right: 30px;
         }
     }
-
-
-
 }
