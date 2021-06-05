@@ -195,6 +195,7 @@ header .header__item:not(:last-child) {
   transition: 0.3s;
 }
 
+/* -- Black Section -- */
 .info {
   background-color: rgba(34, 34, 34, 0.9);
 }
