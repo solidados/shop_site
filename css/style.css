@@ -65,6 +65,16 @@ header .header__item:not(:last-child) {
   font-size: 32px;
   color: #f16d7f;
 }
+.intro .intro__text h1 .word__wrap_1 {
+  display: block;
+  width: 280px;
+  word-break: break-all;
+}
+.intro .intro__text h1 .word__wrap_2 {
+  display: block;
+  width: 400px;
+  word-break: break-all;
+}
 
 /* -- -- Offers Section -- -- */
 .offer {
@@ -233,4 +243,31 @@ header .header__item:not(:last-child) {
 .info .info__wrap .info__item:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+/* -- Above Footer -- */
+.footer__info {
+  height: 448px;
+  background-image: linear-gradient(to right, rgba(244, 244, 244, 0.5), rgba(245, 245, 245, 0.7)), url("../backgrounds/bkgr_footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.footer__info .footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px;
+}
+.footer__info .footer__wrap .footer__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* -- Footer Section -- */
+footer {
+  height: 80px;
+  padding: 17px 0 18px 0;
+  background-color: rgba(34, 34, 34, 0.9);
 }/*# sourceMappingURL=style.css.map */
