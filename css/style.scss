@@ -31,6 +31,11 @@ header {
 
     .header__right {
         display: flex;
+
+        .fa-user {
+            scale: 150%;
+            color: white;
+        }
     }
 
     .header__item:not(:last-child) {
@@ -133,19 +138,26 @@ header {
 
         .img__01 {
             background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url('../img/card_main_001.png');
+            background-position: center;
+            background-size: cover;
         }
 
         .img__02 {
             background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url('../img/card_main_002.png');
+            background-position: center;
+            background-size: cover;
         }
 
         .img__03 {
             background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url('../img/card_main_003.png');
+            background-position: center;
+            background-size: cover;
         }
 
         .img__04 {
             height: 180px;
             background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url('../img/img_main_002.png');
+            background-position: center;
             background-size: cover;
         }
     }
@@ -276,7 +288,7 @@ header {
                 font-size: 14px;
                 line-height: 17px;
                 font-weight: 300;
-                min-width: 320px;
+                max-width: 320px;
                 text-align: center;
             }
         }
@@ -308,6 +320,60 @@ header {
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            max-width: 360px;
+
+            .footer__text {
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                margin-top: 50px;
+
+                .italic {
+                    font-style: italic;
+                }
+            }
+        }
+
+        .footer__right {
+            max-width: 557px;
+            /* display: flex;
+justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+
+            .foo_bold {
+                display: flex;
+                justify-content: center;
+                letter-spacing: 0.03em;
+                margin-bottom: 5px;
+            }
+
+            .foo_thin {
+                font-weight: 300;
+            }
+        }
+
+        .subscribe__items {
+            margin-top: 30px;
+            display: flex;
+        }
+
+        #email {
+            width: 100%;
+            border: none;
+            background: rgba(225, 225, 225, 1);
+            padding: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .subscribe__button {
+            border: none;
+            background-color: #F16D7F;
+            color: whitesmoke;
+            padding: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
         }
     }
 }
@@ -316,6 +382,47 @@ header {
 /* -- Footer Section -- */
 footer {
     height: 80px;
-    padding: 17px 0 18px 0;
     background-color: rgba(34, 34, 34, 0.9);
+
+
+    .footer__fixed {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .rights {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            color: #FBFBFB;
+        }
+
+        .social__icons {
+            display: flex;
+
+            .footer__item {
+                background-color: white;
+                height: 32px;
+                width: 32px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer__item>img {
+                left: 6.25%;
+                right: 12.5%;
+                top: 0%;
+                bottom: 8%;
+            }
+
+            .footer__item:not(:last-child) {
+                margin-right: 8px;
+            }
+
+            .footer__item:nth-child(2) {
+                background: #F16D7F;
+            }
+        }
+    }
 }
