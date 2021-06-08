@@ -30,6 +30,10 @@ header .header__logo {
 header .header__right {
   display: flex;
 }
+header .header__right .fa-user {
+  scale: 150%;
+  color: white;
+}
 header .header__item:not(:last-child) {
   margin-right: 20px;
 }
@@ -113,16 +117,23 @@ header .header__item:not(:last-child) {
 }
 .offer .offer__wrap .img__01 {
   background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url("../img/card_main_001.png");
+  background-position: center;
+  background-size: cover;
 }
 .offer .offer__wrap .img__02 {
   background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url("../img/card_main_002.png");
+  background-position: center;
+  background-size: cover;
 }
 .offer .offer__wrap .img__03 {
   background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url("../img/card_main_003.png");
+  background-position: center;
+  background-size: cover;
 }
 .offer .offer__wrap .img__04 {
   height: 180px;
   background-image: linear-gradient(to top, rgba(136, 110, 98, 0.7), rgba(7, 5, 5, 0.4)), url("../img/img_main_002.png");
+  background-position: center;
   background-size: cover;
 }
 
@@ -275,13 +286,40 @@ header .header__item:not(:last-child) {
   font-style: italic;
 }
 .footer__info .footer__wrap .footer__right {
-  display: flex;
-  justify-content: center;
+  max-width: 557px;
+  /* display: flex;
+  justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
+.footer__info .footer__wrap .footer__right .foo_bold {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 5px;
+}
+.footer__info .footer__wrap .footer__right .foo_thin {
+  font-weight: 300;
+}
 .footer__info .footer__wrap .subscribe__items {
   margin-top: 30px;
+  display: flex;
+}
+.footer__info .footer__wrap #email {
+  width: 100%;
+  border: none;
+  background: #e1e1e1;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.footer__info .footer__wrap .subscribe__button {
+  border: none;
+  background-color: #F16D7F;
+  color: whitesmoke;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 /* -- Footer Section -- */
@@ -319,4 +357,7 @@ footer .footer__fixed .social__icons .footer__item > img {
 }
 footer .footer__fixed .social__icons .footer__item:not(:last-child) {
   margin-right: 8px;
+}
+footer .footer__fixed .social__icons .footer__item:nth-child(2) {
+  background: #F16D7F;
 }/*# sourceMappingURL=style.css.map */
