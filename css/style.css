@@ -271,6 +271,18 @@ header .header__item:not(:last-child) {
   text-align: center;
   margin-top: 50px;
 }
+.footer__info .footer__wrap .footer__left .footer__text .italic {
+  font-style: italic;
+}
+.footer__info .footer__wrap .footer__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__info .footer__wrap .subscribe__items {
+  margin-top: 30px;
+}
 
 /* -- Footer Section -- */
 footer {
