@@ -93,6 +93,39 @@ header {
     }
 }
 
+/*  -- Catalog section --  */
+.catalog {
+    background-color: #F1E4E6;
+    /* height: 148px; */
+}
+
+.catalog__wrap {
+    height: 148px;
+    margin-bottom: 50px;
+
+    .catalog__text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        .word__wrap_3 {
+            color: rgba(241, 109, 127, 1);
+        }
+    }
+}
+
+/* -- Filter Section --  */
+.filter__wrap {
+    height: 102px;
+    display: flex;
+    justify-content: start;
+
+    .filter__item {
+        margin-right: 400px;
+    }
+}
+
 /* -- -- Offers Section -- -- */
 
 .offer {
