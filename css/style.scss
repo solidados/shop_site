@@ -93,6 +93,23 @@ header {
     }
 }
 
+.intro__catalog {
+    height: 148px;
+    /* padding: 50px; */
+    background: #F8F3F4;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.word__wrap_3 {
+    color: rgba(238, 108, 128, 1);
+}
+
 /* -- -- Offers Section -- -- */
 
 .offer {
