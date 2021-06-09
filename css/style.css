@@ -81,7 +81,6 @@ header .header__item:not(:last-child) {
 }
 
 .intro__catalog {
-  height: 148px;
   background: #F8F3F4;
 }
 
@@ -89,7 +88,7 @@ header .header__item:not(:last-child) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+  height: 148px;
 }
 
 .word__wrap_3 {
