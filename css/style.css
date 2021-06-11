@@ -148,15 +148,23 @@ header .header__item:not(:last-child) {
           justify-content: start;
 }
 
-.filter__details {
+.filter__summary {
   background-color: #fff;
 }
 
-.filter__details .filter__list {
+.filter__summary .list__heading {
+  list-style-type: none;
+}
+
+.filter__summary .filter__icon {
+  margin-right: 10px;
+}
+
+.filter__summary .filter__list {
   padding-left: 15px;
 }
 
-.filter__details .filter__list .filter__item {
+.filter__summary .filter__list .filter__item {
   list-style-type: none;
 }
 

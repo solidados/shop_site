@@ -123,8 +123,16 @@ header {
     justify-content: start;
 }
 
-.filter__details {
+.filter__summary {
     background-color: #fff;
+
+    .list__heading {
+        list-style-type: none;
+    }
+
+    .filter__icon {
+        margin-right: 10px;
+    }
 
     .filter__list {
         padding-left: 15px;
