@@ -114,7 +114,7 @@ header .header__item:not(:last-child) {
 
 .catalog__wrap {
   height: 148px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .catalog__wrap .catalog__text {
@@ -135,18 +135,22 @@ header .header__item:not(:last-child) {
 }
 
 /* -- Filter Section --  */
+.filter {
+  background-color: #fff;
+}
+
 .filter__wrap {
   height: 102px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-
-.filter__wrap .filter__item {
-  margin-right: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 450px;
 }
 
 /* -- -- Offers Section -- -- */
