@@ -136,10 +136,6 @@ header .header__item:not(:last-child) {
 
 /* -- Filter Section --  */
 .filter {
-  background-color: #fff;
-}
-
-.filter__wrap {
   height: 102px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -147,10 +143,21 @@ header .header__item:not(:last-child) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-right: 450px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.filter__details {
+  background-color: #fff;
+}
+
+.filter__details .filter__list {
+  padding-left: 15px;
+}
+
+.filter__details .filter__list .filter__item {
+  list-style-type: none;
 }
 
 /* -- -- Offers Section -- -- */

@@ -117,15 +117,22 @@ header {
 
 /* -- Filter Section --  */
 .filter {
-    background-color: #fff;
-}
-
-.filter__wrap {
     height: 102px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    margin-right: 450px;
+    justify-content: start;
+}
+
+.filter__details {
+    background-color: #fff;
+
+    .filter__list {
+        padding-left: 15px;
+
+        .filter__item {
+            list-style-type: none;
+        }
+    }
 }
 
 /* -- -- Offers Section -- -- */
