@@ -114,7 +114,41 @@ header {
 }
 
 /* -- Filter Section --  */
-.filter__wrap {
+
+.filter {
+    width: 360px;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.filter ::-webkit-details-marker {
+    display: none;
+}
+
+.filter[open] {
+    padding-left: 10px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter[open]>summary {
+    color: rgb(241, 109, 127, 1);
+    outline: none;
+    border: none;
+}
+
+.fiter-content {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 360px;
+    left: 0;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+
+/* .filter__wrap {
     height: 102px;
     display: flex;
     justify-content: start;
@@ -123,7 +157,7 @@ header {
     .filter__item {
         margin-right: 400px;
     }
-}
+} */
 
 /* -- -- Offers Section -- -- */
 
