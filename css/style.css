@@ -87,7 +87,6 @@ header .header__item:not(:last-child) {
 
 .catalog__wrap {
   height: 148px;
-  margin-bottom: 50px;
 }
 .catalog__wrap .catalog__text {
   display: flex;
@@ -104,6 +103,7 @@ header .header__item:not(:last-child) {
   height: 102px;
   display: flex;
   justify-content: start;
+  align-items: center;
 }
 .filter__wrap .filter__item {
   margin-right: 400px;

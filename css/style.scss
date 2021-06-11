@@ -100,7 +100,6 @@ header {
 
 .catalog__wrap {
     height: 148px;
-    margin-bottom: 50px;
 
     .catalog__text {
         display: flex;
@@ -119,6 +118,7 @@ header {
     height: 102px;
     display: flex;
     justify-content: start;
+    align-items: center;
 
     .filter__item {
         margin-right: 400px;
