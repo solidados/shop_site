@@ -96,12 +96,14 @@ header {
 /*  -- Catalog section --  */
 .catalog {
     background-color: #F1E4E6;
-    /* height: 148px; */
 }
 
 .catalog__wrap {
     height: 148px;
+<<<<<<< HEAD
     /* margin-bottom: 50px; */
+=======
+>>>>>>> master
 
     .catalog__text {
         display: flex;
@@ -121,6 +123,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: start;
+<<<<<<< HEAD
 }
 
 .filter__summary {
@@ -129,6 +132,9 @@ header {
     .list__heading {
         list-style-type: none;
     }
+=======
+    align-items: center;
+>>>>>>> master
 
     .filter__icon {
         margin-right: 10px;
