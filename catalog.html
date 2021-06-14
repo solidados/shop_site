@@ -26,16 +26,34 @@
             </div>
         </div>
     </header>
+
     <main>
+<<<<<<< HEAD
         <div class="catalog">
             <div class="container catalog__wrap">
                 <div class="catalog__text">
                     <h2><span class="word__wrap_3">NEW ARRIVALS</span></h2>
                     <div class="breadcrump">HOME / MEN / <span class="breadcrump__current">NEW ARRIVALS </span></div>
+=======
+
+        <!-- -- Breadcrumb -- -->
+        <div class="navi">
+            <div class="navi__items container">
+                <p>NEW ARRIVALS</p>
+                <div class="navi__menu">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb__item"><a href="/">HOME</a></li>
+                            <li class="breadcrumb__item"><a href="#">MEN</a></li>
+                            <li class="breadcrumb__item_active" aria-current="page">NEW ARRIVALS</li>
+                        </ol>
+                    </nav>
+>>>>>>> master
                 </div>
             </div>
         </div>
 
+<<<<<<< HEAD
         <div class="filter">
             <div class="container filter__items">
                 <div class="filter__left filter__items">
@@ -137,6 +155,159 @@
             <article class="card">
                 <div class="card__img">
                     <img class="card__item" src="img/card_main_005.png" alt="card_pic">
+=======
+        <!-- -- Filter -- -->
+        <div class="filter__block">
+            <div class="filter__menu container">
+                <details class="filter">
+                    <summary><span>FILTER</span> <img src="vector_ico/filter_bricks.svg" alt=""></summary>
+                    <div class="fiter-content">
+                        <details class="filter-title">
+                            <summary>CATEGORY</summary>
+                            <ul class="filter-list">
+                                <li class="filter-item"><a href="" class="filter-link">Accessories</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Bags</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Denim</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Hoodies & Searshirts</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Jackets & Coats</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Polos</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Shirts</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Shoes</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Sweaters & Knits</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">T-Shirts</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Tanks</a></li>
+                            </ul>
+                        </details>
+
+                        <details class="filter-title">
+                            <summary>BRAND</summary>
+                            <ul class="filter-list">
+                                <li class="filter-item"><a href="" class="filter-link">lorem</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">Lorem & ipsum</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">ipsum</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">qweqweqw</a></li>
+                            </ul>
+                        </details>
+
+                        <details class="filter-title">
+                            <summary>DESIGN</summary>
+                            <ul class="filter-list">
+                                <li class="filter-item"><a href="" class="filter-link">qweqweqw</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">qweqweqw</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">qweqweqw</a></li>
+                                <li class="filter-item"><a href="" class="filter-link">qweqweqw</a></li>
+                            </ul>
+                        </details>
+                    </div>
+                </details>
+
+                <!-- -- CHOICE -- -->
+
+                <!-- -- TRENDING NOW -- -->
+                <div class="choice">
+                    <details class="choice choice__trend">
+                        <summary><span class="filter-title">TRENDING NOW</span><img class="arrow_down"
+                                src="vector_ico/arrow_down.svg" alt="arrow"></summary>
+                        <div class="filter-content">
+                            <ul class="filter-list">
+                                <li class="filter-item"><label><input type="checkbox" id="winter">Winter</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="spring">Spring</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="summer">Summer</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="fall">Fall</label></li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <!-- -- SIZE -- -->
+                    <details class="choice choice__size">
+                        <summary><span class="filter-title">SIZE</span><img class="arrow_down"
+                                src="vector_ico/arrow_down.svg" alt="arrow"></summary>
+                        <div class="filter-content">
+                            <ul class="filter-list">
+                                <li class="filter-item"><label><input type="checkbox" id="size-xs">XS</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-s">S</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-m">M</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-l">L</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-xl">XL</label></li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <!-- -- PRICE -- -->
+                    <details class="choice choice__price">
+                        <summary><span class="filter-title">PRICE</span><img class="arrow_down"
+                                src="vector_ico/arrow_down.svg" alt="arrow"></summary>
+                        <div class="filter-content">
+                            <ul class="filter-list">
+                                <li class="filter-item"><label><input type="checkbox" id="size-xs">XS</label>
+                                </li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-s">S</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-m">M</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-l">L</label></li>
+                                <li class="filter-item"><label><input type="checkbox" id="size-xl">XL</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Пример раскрывающегося списка
+                <select>
+                <fieldset>SIZE</fieldset>
+                <option value="" default> </option>
+                <option value="">XS</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+            </select> -->
+
+
+        <!-- Пример Buttons
+        <button class="btn">Test-1</button>
+        <button class="btn">Test-2</button>
+        <button class="btn">Test-3</button>
+
+        <style>
+            .btn {
+                bottom: none;
+                padding: 20px 40px;
+                border-radius: 15px;
+            }
+
+            .btn__red {
+                background-color: red;
+                color: white;
+            }
+
+            .btn__green:hover {
+                background-color: orange;
+                color: black;
+            }
+        </style> -->
+
+        <!-- Пример BEM: 
+            <div class="card">
+            <div class="card__img">
+                <img src="" alt="picture">
+            </div>
+            <div class="card__text">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quod aliquam odio quia veniam
+                    dolores?</p>
+                <strong>Price</strong>
+            </div>
+        </div> -->
+
+
+        <!-- -- -- Cards Section -- -- -->
+        <section class="container card__box">
+            <article class="card">
+                <div class="card__item">
+                    <img class="card__img" src="img/card_cat_001.svg" alt="card_pic">
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -149,7 +320,25 @@
 
             <article class="card">
                 <div class="card__img">
+                    <img class="card__item" src="img/card_cat_002.svg" alt="card_pic">
+>>>>>>> master
+                </div>
+                <div class="card__text"><a href="#">
+                        <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
+                    </a>
+                    <p class="text__mini">Known for her sculptural takes on traditional tailoring,
+                        Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p><strong
+                        class="price">$52.00</strong>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_006.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_003.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -162,7 +351,11 @@
 
             <article class="card">
                 <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_007.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_004.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -175,7 +368,11 @@
 
             <article class="card">
                 <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_008.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_005.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -188,7 +385,11 @@
 
             <article class="card">
                 <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_009.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_006.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -201,7 +402,11 @@
 
             <article class="card">
                 <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_008.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_007.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -214,7 +419,11 @@
 
             <article class="card">
                 <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_008.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_008.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -227,7 +436,11 @@
 
             <article class="card">
                 <div class="card__img">
+<<<<<<< HEAD
                     <img class="card__item" src="img/card_main_008.png" alt="card_pic">
+=======
+                    <img class="card__item" src="img/card_cat_009.svg" alt="card_pic">
+>>>>>>> master
                 </div>
                 <div class="card__text"><a href="#">
                         <h4 class="heading__mini">ELLERY X M'O CAPSULE</h4>
@@ -240,12 +453,35 @@
 
         </section>
 
+<<<<<<< HEAD
         <!-- Button -->
         <div class="container button__type">
             <a href="#">
                 <div class="see__all_prods">Browse All Products</div>
             </a>
         </div>
+=======
+        <!-- --Pagination-- -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only"><img src="vector_ico/arrow_left.svg" alt=""></span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only"><img src="vector_ico/arrow_left.svg" alt=""></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+>>>>>>> master
 
         <!-- Black Section -->
         <section class="info">
@@ -281,22 +517,28 @@
         </section>
 
     </main>
+
     <!-- -- Above Footer -- -->
     <div class="footer__info">
         <div class="container footer__wrap">
             <div class="footer__left">
-                <img src="img/faces_001.png" alt="">
+                <img src="img/faces_001.svg" alt="">
                 <p class="footer__text">Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span class="italic">a
                         pulvinar purus condimentum</span></p>
             </div>
-            <div class="footer__right">
-                <h3><span class="foo_bold">SUBSCRIBE</span>
-                    <span class="foo_thin">FOR OUR NEW LETTER AND PROMOTION</span></h3>
 
-                <form class="subscribe__items" action="#">
-                    <input id="email" type="email" placeholder="Enter Your Email" pattern="">
-                    <button class="subscribe__button" type="button" value="Subscribe">Subscribe</button>
-                </form>
+            <div class="footer__right">
+                <div class="footer__heading">
+                    <h3 class="footer__title">SUBSCRIBE</h3>
+                    <p class="footer__subtitle">FOR OUR LATEST NEWS AND PROMOTION</p>
+
+                    <form class="subscribe" action="#">
+                        <div class="subscribe__items">
+                            <input id="email" type="email" placeholder="Enter Your Email" pattern="">
+                            <button class="subscribe__button" type="button" value="Subscribe">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
