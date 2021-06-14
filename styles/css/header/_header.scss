@@ -1,0 +1,28 @@
+header {
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 17px 0 18px 0;
+
+    .header__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .header__logo {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+    .header__right {
+        display: flex;
+
+        .fa-user {
+            scale: 150%;
+            color: white;
+        }
+    }
+
+    .header__item:not(:last-child) {
+        margin-right: 20px;
+    }
+}
