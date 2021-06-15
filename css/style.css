@@ -87,10 +87,6 @@ header .header__item:not(:last-child) {
 
 .catalog__wrap {
   height: 148px;
-<<<<<<< HEAD
-  /* margin-bottom: 50px; */
-=======
->>>>>>> master
 }
 .catalog__wrap .catalog__text {
   display: flex;
@@ -105,42 +101,12 @@ header .header__item:not(:last-child) {
 /* -- Filter Section --  */
 .filter {
   height: 102px;
-<<<<<<< HEAD
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-=======
->>>>>>> master
   display: flex;
   justify-content: start;
   align-items: center;
 }
-<<<<<<< HEAD
-
-.filter__summary {
-  background-color: #fff;
-}
-
-.filter__summary .list__heading {
-  list-style-type: none;
-}
-
-.filter__summary .filter__icon {
-  margin-right: 10px;
-}
-
-.filter__summary .filter__list {
-  padding-left: 15px;
-}
-
-.filter__summary .filter__list .filter__item {
-  list-style-type: none;
-=======
 .filter__wrap .filter__item {
   margin-right: 400px;
->>>>>>> master
 }
 
 /* -- -- Offers Section -- -- */
